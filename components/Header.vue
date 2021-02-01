@@ -12,7 +12,7 @@
             <button 
                 aria-controls="menu__container"
                 :tabindex="active ? 0 : -1"
-                class="h-16 w-16 flex md:hidden place-items-center justify-center ml-auto"
+                class="h-16 w-16 flex md:hidden place-items-center justify-end ml-auto"
                 aria-expanded="false"
                 @click.prevent="active = !active">
                 <span class="sr-only">Ouvrir le menu principal</span>

@@ -5,7 +5,7 @@
         class="absolute z-0 bg-square w-full lg:w-10/12 h-full bg-gray-900 top-0 overflow-hidden lg:rounded-br-2xl"
       >
         <img
-          src="../static/pexels-valeria-boltneva-1833349.jpg"
+          src="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
           class="w-full h-full object-cover opacity-10"
           alt=""
         />
@@ -50,7 +50,7 @@
             <nuxt-link class="btn border-indigo-500 text-indigo-500 mt-8" to="">En savoir plus</nuxt-link>
           </div>
           <div class="md:col-span-4">
-            <img src="../static/pexels-mateusz-dach-3660229.jpg" class="rounded-lg lg:rounded-3xl shadow lg:shadow-2xl" alt="">
+            <img src="https://images.pexels.com/photos/2159074/pexels-photo-2159074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="rounded-lg lg:rounded-3xl shadow lg:shadow-2xl" alt="">
           </div>
         </div>
       </div>
@@ -59,28 +59,50 @@
     <!-- menu section -->
     <section class="relative py-12 lg:py-20">
       <div class="container">
-        <h2 class="text-center">La carte du restaurant</h2>
+        <h2 id="card-title" class="text-center">La carte du restaurant</h2>
         <h3 class="text-indigo-500 text-center">Des produits frais et locaux dans votre assiette</h3>
-        <ul class="w-full max-w-2xl mx-auto mt-8 lg:mt-12 grid gap-4 md:grid-cols-2">
-          <li class="md:col-span-2 bg-gray-100 hover:bg-gray-50 rounded-xl h-40">
-            <a href="" class="flex place-items-center h-full justify-center px-3 p-2 text-center">
+        <ul aria-labelledby="card-title" class="w-full max-w-2xl mx-auto mt-8 lg:mt-12 grid gap-4 grid-cols-2">
+          <li class="group hover:shadow-xl relative col-span-2 bg-gray-100 hover:bg-gray-900 hover:text-white rounded-xl h-40">
+            <img class="absolute h-full w-full inset-x-0 inset-y-0 object-cover pointer-events-none opacity-0 group-hover:opacity-40 rounded-xl" src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            <a href="" class="relative flex place-items-center h-full justify-center px-3 p-2 text-center">
               <div class="text-xl font-semibold">Pizzas <small class="block">À partir de 9,50$</small></div>
             </a>
           </li>
-          <li class="md:col-span-1 bg-gray-100 hover:bg-gray-50 rounded-xl h-40">
-            <a href="" class="flex place-items-center h-full justify-center px-3 p-2 text-center">
+          <li class="group hover:shadow-xl relative col-span-1 bg-gray-900 text-white rounded-xl h-40">
+            <img class="absolute h-full w-full inset-x-0 inset-y-0 object-cover pointer-events-none opacity-0 group-hover:opacity-40 rounded-xl" src="https://images.pexels.com/photos/1580464/pexels-photo-1580464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            <a href="" class="relative flex flex-col place-items-center h-full justify-center px-3 p-2 text-center space-y-2">
+              <div class="w-full text-center"><span class="inline-block px-2 py-1 bg-indigo-500 text-white rounded-full text-xs tracking-wide">Recommandées</span></div>
               <div class="text-xl font-semibold">Tartines <small class="block">À partir de 9,50$</small></div>
             </a>
           </li>
-          <li class="md:col-span-1 bg-gray-100 hover:bg-gray-50 rounded-xl h-40">
-            <a href="" class="flex place-items-center h-full justify-center px-3 p-2 text-center">
-              <div class="text-xl font-semibold">Pâtes <small class="block">À partir de 9,50$</small></div>
+          <li class="group hover:shadow-xl relative col-span-1 bg-gray-100 hover:bg-gray-900 hover:text-white rounded-xl h-40">
+            <img class="absolute h-full w-full inset-x-0 inset-y-0 object-cover pointer-events-none opacity-0 group-hover:opacity-40 rounded-xl" src="https://images.pexels.com/photos/3214161/pexels-photo-3214161.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="">
+            <a href="" class="relative flex place-items-center h-full justify-center px-3 p-2 text-center">
+              <div class="text-xl font-semibold">Pastas <small class="block">À partir de 9,50$</small></div>
             </a>
           </li>
         </ul>
         <div class="text-center">
           <nuxt-link to="/" class="btn btn--indigo text-white mt-8 lg:mt-12">Voir toute la carte</nuxt-link>
         </div>
+      </div>
+    </section>
+
+    <section class="relative py-12 lg:py-20 bg-gray-50">
+      <div class="container max-w-4xl">
+          <div class="grid grid-cols-2">
+            <h2 class="col-span-2">Galerie photos</h2>
+            <h3 class="col-span-1 text-gray-500">Retrouvez toutes les photos sur <a href="#" target="_blank" class="underline text-indigo-500">Instagram</a></h3>
+          </div>
+          <div class="mt-8 lg:mt-12 grid grid-cols-2 grid-rows-2 grid-flow-col gap-4">
+            <img class="rounded-lg lg:rounded-3xl transform" src="https://images.pexels.com/photos/1030947/pexels-photo-1030947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            <img class="rounded-lg lg:rounded-3xl transform" src="https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+            <img class="rounded-lg lg:rounded-3xl transform -translate-y-1/4" src="https://images.pexels.com/photos/2613471/pexels-photo-2613471.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+            <img class="rounded-lg lg:rounded-3xl transform -translate-y-1/4" src="https://images.pexels.com/photos/3892468/pexels-photo-3892468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <!-- <div class="mt-8 md:mt-12">
+            <a href="#" target="_blank" class="btn text-indigo-500 font-semibold">Aller sur Instagram</a>
+          </div> -->
       </div>
     </section>
   </main>
