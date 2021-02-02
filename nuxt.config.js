@@ -50,6 +50,6 @@ export default {
     subFolders: true
   },
   router: {
-    base: '/'
+    base: '/tailsfood/'
   }
 }
