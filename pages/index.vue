@@ -61,7 +61,7 @@
       <div class="container">
         <h2 id="card-title" class="text-center">La carte du restaurant</h2>
         <h3 class="text-indigo-500 text-center">Des produits frais et locaux dans votre assiette</h3>
-        <ul aria-labelledby="card-title" class="w-full max-w-2xl mx-auto mt-8 lg:mt-12 grid gap-4 grid-cols-2">
+        <ul tabindex="0" aria-label="Raccourcis carte du restaurant" class="w-full max-w-2xl mx-auto mt-8 lg:mt-12 grid gap-4 grid-cols-2">
           <li class="group hover:shadow-xl relative col-span-2 bg-gray-100 hover:bg-gray-900 hover:text-white rounded-xl h-40">
             <img class="absolute h-full w-full inset-x-0 inset-y-0 object-cover pointer-events-none opacity-0 group-hover:opacity-40 rounded-xl" src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
             <a href="" class="relative flex place-items-center h-full justify-center px-3 p-2 text-center">
@@ -88,7 +88,20 @@
       </div>
     </section>
 
-    <section class="relative py-12 lg:py-20 bg-gray-50">
+    <!-- hours section -->
+    <section class="relative py-12 lg:py-20 bg-gray-100">
+      <div class="container max-w-4xl">
+        <h2 id="hours_title">Nos horaires d'ouverture</h2>
+        <ul tabindex="0" aria-labelledby="hours_title" class="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4 mt-8 lg:mt-12">
+          <li><strong>Lundi et mardi</strong><span class="block text-gray-400 space-x-1">Fermé</span></li>
+          <li><strong>Du mercredi au samedi</strong><span class="block text-gray-400">De 11:00 à 15:00 et de 18:30 à 21:00</span></li>
+          <li><strong>Dimanche</strong><span class="block text-gray-400">De 11:00 à 15:00</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- photos section -->
+    <section class="relative py-12 lg:py-20">
       <div class="container max-w-4xl">
           <div class="grid grid-cols-2">
             <h2 class="col-span-2">Galerie photos</h2>
