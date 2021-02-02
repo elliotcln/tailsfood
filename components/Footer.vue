@@ -3,20 +3,24 @@
         <section class="py-12 lg:py-20 bg-gray-50">
             <div class="container">
                 <h2 id="contact_title" class="text-center">Nous contacter ?</h2>
-                <div role="list" tabindex="0" aria-labelledby="contact_title" class="grid grid-cols-2 gap-8 max-w-4xl mx-auto text-center mt-8 lg:mt-12">
-                    <a class="btn space-x-2" href="tel:+44 131 9496 0278">
-                        <svg role="img" class="h-4 text-indigo-500" aria-label="Par téléphone au" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                        <span>+44 131 9496 0278</span>
-                    </a>
-                    <a class="btn space-x-2" href="mailto:kenavo@pretiou.fr">
-                        <svg role="img" class="h-4 text-indigo-500" aria-label="Par mail à" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                        </svg>
-                        <span>kenavo@pretiou.fr</span>
-                    </a>
-                </div>
+                <ul tabindex="0" aria-labelledby="contact_title" class="grid grid-col md:grid-row md:grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto text-center mt-8 lg:mt-12">
+                    <li>
+                        <a class="btn w-full space-x-2" href="tel:+44 131 9496 0278">
+                            <svg role="img" class="h-4 text-indigo-500" aria-label="Par téléphone au" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <span>+44 131 9496 0278</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn w-full space-x-2" href="mailto:kenavo@pretiou.fr">
+                            <svg role="img" class="h-4 text-indigo-500" aria-label="Par email à" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                            </svg>
+                            <span>kenavo@pretiou.fr</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
         <footer class="py-8 lg:py-12 bg-gray-900 text-gray-300 text-sm">

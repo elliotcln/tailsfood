@@ -46,6 +46,10 @@ export default {
   },
   // Generate Confiugration
   generate: {
-    dir: 'docs'
+    dir: 'docs',
+    subFolders: true
+  },
+  router: {
+    base: '/'
   }
 }
